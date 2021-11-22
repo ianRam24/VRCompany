@@ -1,0 +1,217 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+header {
+    background-color: #d33b15;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+}
+
+nav {
+    background-color: #800909;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 24.6%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8.5px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #ca0404;
+    text-decoration: underline;
+}
+
+nav ul li a.activo {
+    background-color: #440202
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #d33b15;
+    font-weight: 400;
+}
+
+.bienvenidos {
+    width: 75%;
+    /* background-color: yellow; */
+    float: left;
+}
+
+.testimonios {
+    width: 25%;
+    /* background-color: wheat; */
+    float: right;
+}
+
+.bienvenidos p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 18px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    /* background-color: yellow; */
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 13px;
+    text-align: center;
+    /* background-color: red; */
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+/*inicio pagina nosotros*/
+
+.historia p {
+    font-size: 15px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.persona {
+    width: 18%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.persona img {
+    max-width: 80%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: 10px;
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    color: #000;
+    font-weight: normal;
+}
+
+.persona h6 {
+    font-style: italic;
+}
+
+.persona p {
+    font-size: 15px;
+}
+
+
+/*fin de nosotros*/
+
+/*inicio contacto*/
+.contacto,
+.redes {
+    width: 50%;
+    /* background-color: yellow; */
+}
+
+.contacto {
+    float: left;
+}
+
+.redes {
+    float: right;
+}
+
+.formulario label {
+    width: 22%;
+    /* background-color: yellow; */
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.formulario input,
+.formulario textarea {
+    background-color: rgb(223, 217, 217);
+    border: 1px solid rgba(204, 204, 204, 0.842);
+    border-radius: 5px;
+    /*width: 70%;*/
+    /*label y al lado input*/
+    width: 90%;
+    padding: 5px;
+    font-size: 13px;
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.589);
+}
+
+.formulario textarea {
+    height: 150px;
+    resize: none;
+}
+
+.formulario input[type="submit"] {
+    width: auto;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 10px #a7a0a0a1;
+    /* position: relative;
+    left: 40%; */
+}
+
+.formulario .centrar {
+    display: flex;
+    justify-content: center;
+}
+
+/*fin de contacto*/

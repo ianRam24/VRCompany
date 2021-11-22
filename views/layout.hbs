@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VRCompany Cybersecurity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheets/normalize.css">
+  <link rel="stylesheet" href="stylesheets/transportes.css">
+  <link rel="stylesheet" href="stylesheets/admin.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo holder">
+      <i class="fas fa-biohazard">VRC</i>
+    </div>
+  </header>
+  <nav>
+    <ul class="holder">
+      <li><a class="{{#if isHome}}activo{{/if}}" href="/">Home</a></li>
+      <li><a class="{{#if isNosotros}}activo{{/if}}" href="/nosotros">About us</a></li>
+      <li><a class="{{#if isNovedades}}activo{{/if}}" href="/novedades">News</a></li>
+      <li><a class="{{#if isContacto}}activo{{/if}}" href="/contacto">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="holder">
+    {{{body}}}
+</main>
+<footer>
+  <p>Diseñado por: Ian Ramirez 2021 ©</p>
+</footer>
+
+  </body>
+</html>

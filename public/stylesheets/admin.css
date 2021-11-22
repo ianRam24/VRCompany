@@ -1,0 +1,17 @@
+header .logo {
+  text-align: center;
+}
+
+header h1 {
+  position: static;
+}
+
+/* .formulario input:disabled {
+  background: #ccc;
+ 
+} */
+.buscador {
+  position: relative;
+  float: right;
+  bottom: 30px;
+}

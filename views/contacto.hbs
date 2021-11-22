@@ -1,0 +1,35 @@
+<div class='contacto'>
+  <h2>Please fill the form and we are going <br> to get in touch with you</h2>
+  <form action='/contacto' method='post' class='formulario'>
+    <p>
+      <label for=''>Name</label>
+      <input type='text' name='nombre' />
+    </p>
+    <p>
+      <label for=''>Email</label>
+      <input type='email' name='email' required />
+    </p>
+    <p>
+      <label for=''>Phone</label>
+      <input type='text' name='tel' />
+    </p>
+    <p>
+      <label for=''>Message</label>
+      <textarea name='comentarios'></textarea>
+    </p>
+    <p class='centrar'><input type='submit' /></p>
+  </form>
+  {{#if message}}
+    <p>{{message}}</p>
+  {{/if}}
+</div>
+<div class='redes'>
+  <h2>More ways to contact us</h2>
+  <ul>
+    <li>Phone: 323-456-7896</li>
+    <li>Twitter: example@example.dev</li>
+    <li>Github: example@example.dev</li>
+    <li>Facebook: example@example.dev</li>
+  </ul>
+    <img src="images/svg.svg" alt="Work with Us" height="500px">
+</div>

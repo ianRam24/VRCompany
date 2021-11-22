@@ -1,0 +1,20 @@
+<h2>Novedades</h2>
+<div class="buscador">
+    <form action="/novedades" method="get">
+        <input type="search" name="q" {{#if q}} value="{{q}}"{{/if}}>
+        <button type="submit">Buscar</button>
+    </form>
+</div>
+{{#each novedades}}
+<div class="novedades">
+    <h3>{{titulo}}</h3>
+    <img src="{{imagen}}">
+    <h4>{{subtitulo}}</h4>
+    <p>{{{cuerpo}}}</p>
+    <hr />
+</div>
+{{/each}}
+{{#if is_search}}
+    {{#unless novedades.length}}
+    <p>No se encontraton resultados para <b>"{{q}}"</b></p>
+    {{/unless}}
